@@ -43,6 +43,7 @@ writing:
         CountMarkdownTags --tag "heading" --count 10
         CountMarkdownTags --tag "code_block" --count 3
 
+CountCommits --count 5
 ExecuteCommand --command "gradle build"
 CountCommandOutput --command "gradle -q --console plain run" --count 62
 MatchCommandFragment --command "gradle run" --fragment "20" --count 1 --exact
