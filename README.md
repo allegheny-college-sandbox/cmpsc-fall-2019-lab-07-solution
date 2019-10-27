@@ -67,7 +67,7 @@ A successful submission for this lab includes two (2) Java files and one (1) `re
 - [ ] Imports all required libraries
 - [ ] Implements a `File` which loads `inputs/book.list`
 - [ ] Implements a `Scanner` to read each line of the `File`
-- [ ] Implements a `Scanner` using the `,` delimiter to read data contained in each line
+- [ ] Implements a `Scanner` using `tab` as a delimiter to read data contained in each line
 - [ ] Implements an `ArrayList` to store objects of the `Book` type
 - [ ] Uses a `while` loop to `iterate` over the file
 - [ ] Uses a `while` loop to `iterate` over the data
@@ -163,7 +163,7 @@ Gator Wizard Quarterly: Vol. 5
 Various
 145 pages
 
-{TEMPORARY TITLE}
+TEMPORARY TITLE
 Ulysses S. Cat
 716 pages
 
