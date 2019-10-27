@@ -8,7 +8,7 @@ src/main:
         library/DisplayLibrary.java:
             ConfirmFileExists
             MatchFileFragment --fragment "TODO" --count 0 --exact
-            MatchFileFragment --fragment "{Your Name Here} --count 0 --exact
+            MatchFileFragment --fragment "{Your Name Here}" --count 0 --exact
             MatchFileFragment --fragment "import java.util.Scanner" --count 1 --exact
             MatchFileFragment --fragment "import java.util.ArrayList" --count 1 --exact
             MatchFileFragment --fragment " = new File(" --count 1 --exact
