@@ -11,13 +11,13 @@ src/main:
             MatchFileFragment --fragment "{Your Name Here} --count 0 --exact
             MatchFileFragment --fragment "import java.util.Scanner" --count 1 --exact
             MatchFileFragment --fragment "import java.util.ArrayList" --count 1 --exact
-            MatchFileFramgent --fragment " = new File(" --count 1 --exact
+            MatchFileFragment --fragment " = new File(" --count 1 --exact
             MatchFileFragment --fragment " = new Scanner(" --count 2 --exact
             MatchFileFragment --fragment " = new Book()" --count 1 --exact
             MatchFileFragment --fragment "setTitle(" --count 1 --exact
             MatchFileFragment --fragment "setAuthor(" --count 1 --exact
             MatchFileFragment --fragment "setPages(" --count 1 --exact
-            MatchFileFragment --fragment "while (" -count 3
+            MatchFileFragment --fragment "while (" --count 3
             MatchFileFragment --fragment ".get(" --count 1 --exact
             MatchFileFragment --fragment ".size(" --count 1
             MatchFileRegex --regex "double\s[a-zA-Z0-9]+\s=\s0;" --count 1
@@ -31,7 +31,7 @@ src/main:
         library/Book.java:
             ConfirmFileExists
             MatchFileFragment --fragment "TODO" --count 0 --exact
-            MatchFileFragment --fragment "{Your Name Here} --count 0 --exact
+            MatchFileFragment --fragment "{Your Name Here}" --count 0 --exact
             MatchFileFragment --fragment "this.width = count * .005;" --count 1 --exact
             MatchFileFragment --fragment "return this.width;" --count 1 --exact
             
