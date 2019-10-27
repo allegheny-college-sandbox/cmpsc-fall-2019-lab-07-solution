@@ -46,7 +46,7 @@ AUTHOR
 PAGE COUNT
 ```
 
-* An estimate of how many "linear feet" his collection currently takes up so that he can buy a shelf using the following forumula converting page counts to linear feet:
+* An estimate of how many "linear feet" his collection currently takes up so that he can buy a shelf using the following formula converting page counts to linear feet:
 
 ```
 (NUMBER OF PAGES) * .005 = (WIDTH OF BOOK IN INCHES)
