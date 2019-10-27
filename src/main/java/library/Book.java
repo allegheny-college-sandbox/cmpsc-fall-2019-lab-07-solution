@@ -70,14 +70,14 @@ public class Book {
   /** Returns book's width in inches.
    *
    */
-  public double getWidth(){
+  public double getWidth() {
     return this.width;
   }
   
   /** Creates printable string of above information.
    *
    */
-  public String toString(){
+  public String toString() {
     String book = this.title 
                   + "\n" + this.author 
                   + "\n" + this.pageCount + " pages";

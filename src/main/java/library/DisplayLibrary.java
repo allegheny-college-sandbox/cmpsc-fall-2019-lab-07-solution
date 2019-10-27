@@ -31,7 +31,7 @@ public class DisplayLibrary {
     Scanner line = null;
     ArrayList<Book> library = new ArrayList<Book>();
     // Loop over file
-    while (input.hasNextLine()){
+    while (input.hasNextLine()) {
       // Get lines
       String info = input.nextLine();
       // Scan and split lines at commas
@@ -65,7 +65,7 @@ public class DisplayLibrary {
     // Print the count of items
     System.out.println("There are " + library.size() + " books:\n");
     // Loop over the library
-    while(count < library.size()) {
+    while (count < library.size()) {
       // Get object to print
       Book entry = library.get(count);
       shelfSpace += entry.getWidth();

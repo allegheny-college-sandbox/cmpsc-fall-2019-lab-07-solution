@@ -20,7 +20,7 @@ repositories {
 }
 
 apply plugin: 'application'
-mainClassName = 'experiments.TestTonic'
+mainClassName = 'bibliotech.DisplayLibrary'
 
 
 apply plugin: 'checkstyle'
