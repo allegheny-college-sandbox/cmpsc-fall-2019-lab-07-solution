@@ -44,6 +44,6 @@ writing:
         CountMarkdownTags --tag "code_block" --count 3
 
 ExecuteCommand --command "gradle build"
-CountCommandOutput --command "gradle -q --console plain run" --count 83
+CountCommandOutput --command "gradle -q --console plain run" --count 62
 MatchCommandFragment --command "gradle run" --fragment "20" --count 1 --exact
 MatchCommandFragment --command "gradle run" --fragment "3.29" --count 1 --exact

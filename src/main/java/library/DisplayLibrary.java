@@ -77,6 +77,6 @@ public class DisplayLibrary {
     }
     shelfSpace /= 12;
     DecimalFormat fmt = new DecimalFormat("#.##");
-    System.out.print("Shelf width is " + fmt.format(shelfSpace) + " feet.");
+    System.out.print("Shelf width required: " + fmt.format(shelfSpace) + " feet.");
   }
 }
