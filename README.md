@@ -34,7 +34,9 @@ As for a markdown cheatsheet, [this GitHub repository](https://github.com/adam-p
 
 ![Book shelf](https://cs.allegheny.edu/sites/dluman/cmpsc100/img/lab-07-bookcase.png)
 
-Now that all the excitement around G. Wiz's win on "FizzBuzz" has subsided, he can dedicate himself to another wizardly hobby: collecting tomes. He's taken a small portion of his winnings and purchased a few to add to his library, a list which he has given you in the `inputs/book.list` file. To continue his collection, he needs a couple of things from you:
+Now that all the excitement around G. Wiz's win on "FizzBuzz" has subsided, he can dedicate himself to another wizardly hobby: collecting tomes. He's taken a small portion of his winnings and purchased a few to add to his library, a list which he has given you in the `inputs/book.list` file. This file is _tab delimited_.
+
+To continue his collection, he needs a couple of things from you:
 
 * A print-friendly list of the books in the collection in the format of:
 
@@ -67,7 +69,6 @@ A successful submission for this lab includes two (2) Java files and one (1) `re
 - [ ] Implements a `Scanner` to read each line of the `File`
 - [ ] Implements a `Scanner` using the `,` delimiter to read data contained in each line
 - [ ] Implements an `ArrayList` to store objects of the `Book` type
-- [ ] Uses correct methods of `ArrayList` to `get` values and `size`
 - [ ] Uses a `while` loop to `iterate` over the file
 - [ ] Uses a `while` loop to `iterate` over the data
 * This may require using an identifer to track which "field" your scanner is reading
@@ -78,6 +79,7 @@ A successful submission for this lab includes two (2) Java files and one (1) `re
 * Page count
 - [ ] Initializes an identifier to track the amount of shelf space books take up
 - [ ] Uses a `while` loop to print the contents of the `ArrayList` containing book objects
+- [ ] Uses correct methods of `ArrayList` to `get` values and `size`
 - [ ] Prints the final calculation of shelf space the tomes take up
 
 A successful output should appear exactly like the following: 

@@ -36,7 +36,7 @@ public class DisplayLibrary {
       String info = input.nextLine();
       // Scan and split lines at commas
       line = new Scanner(info);
-      line.useDelimiter(",");
+      line.useDelimiter("\t");
       // Set up placeholder book object
       Book book = new Book();
       // Loop over line
