@@ -163,11 +163,11 @@ Gator Wizard Quarterly: Vol. 5
 Various
 145 pages
 
-TEMPORARY TITLE
+I'm Fur Real: an Autobiography
 Ulysses S. Cat
 716 pages
 
-Shelf width is 3.29 feet.
+Shelf width required: 3.29 feet.
 
 ```
 
@@ -175,8 +175,9 @@ Shelf width is 3.29 feet.
 
 - [ ] Contains no `TODO` markers
 - [ ] Contains no `{Your Name Here}` markers
-- [ ] Correctly implements the formula to calculate individual book width (in inches) as part of the `setWidth` method
-- [ ] Implements a method titled `getWidth` which returns an individual book's width (in inches)
+- [ ] Correctly implements the above formula to calculate individual book width as part of the `setWidth` method
+- [ ] Implements a method titled `getWidth` which returns an individual book's width
+* Remember: this number represents _inches_, and we need _feet_
 
 ### `reflection.md`
 
